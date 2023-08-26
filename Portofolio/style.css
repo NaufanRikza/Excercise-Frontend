@@ -1,0 +1,382 @@
+:root {
+  --progress-bg: #fbe1b6;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1a1a1a;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.porto-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 80%;
+}
+
+.porto-header {
+  color: #fafafa;
+  font-size: 20px;
+}
+
+.porto-who-am-i {
+  color: #e37218;
+  font-size: 70px;
+  font-weight: 600;
+  margin-top: 32px;
+  /* margin-top: 0px; */
+}
+
+.porto-photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #e37218;
+  padding: 4px;
+}
+
+.porto-photo img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0px -20px;
+}
+
+.porto-intro {
+  color: #fafafa;
+  margin-top: 32px;
+  width: 75%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.porto-more-info-header {
+  color: #fafafa;
+  font-size: 50px;
+  text-align: center;
+  /* text-transform: uppercase; */
+  margin: 64px;
+  /* font-weight: bold; */
+}
+
+.porto-more-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.porto-more-info-education-items {
+  padding: 16px;
+  font-size: 26px;
+}
+
+.porto-more-info-education {
+  width: 400px;
+  height: 400px;
+  background-color: #e37218;
+  border-radius: 20px;
+  padding-bottom: 8px;
+}
+
+.porto-more-info-education-container {
+  width: 400px;
+  height: 400px;
+  width: 100%;
+  background-color: #fafafa;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.porto-more-info-education-header {
+  color: #e37218;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.porto-more-info-education img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 16px;
+}
+
+.porto-more-info-bio {
+  width: 400px;
+  height: 400px;
+  background-color: #e37218;
+  border-radius: 20px;
+  padding-bottom: 8px;
+}
+
+.porto-more-info-bio-container {
+  width: 400px;
+  height: 400px;
+  background-color: #fafafa;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.porto-more-info-item {
+  padding: 16px;
+}
+
+.porto-more-info-bio-header {
+  color: #e37218;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.porto-more-info-bio-value,
+.porto-more-info-education-name {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.porto-section-header {
+  color: #e37218;
+  margin-top: 64px;
+  width: 100%;
+  text-align: left;
+}
+
+.porto-section-header-container {
+  width: fit-content;
+  font-size: 26px;
+}
+
+.porto-section-break {
+  width: 100%;
+  height: 5px;
+  border-top: 5px solid #e37218;
+}
+
+.porto-interests {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+}
+
+.porto-interest-container,
+.porto-interest-container div {
+  border-radius: 20px;
+  height: 250px;
+  width: 250px;
+}
+
+.porto-interest-container {
+  background-color: #e37218;
+  padding-bottom: 8px;
+}
+
+.porto-interest-container div {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+  /* padding: 30px; */
+}
+
+.porto-interest-items img {
+  height: 100px;
+  height: 100px;
+  margin-bottom: 16px;
+}
+
+.porto-experiences {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 60px;
+  row-gap: 40px;
+}
+
+.porto-experinces-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#porto-experinces-last-item {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-content: center;
+}
+
+#porto-experiences-details-last-item {
+  width: 400px;
+}
+
+.porto-experience-picture {
+  margin-right: 16px;
+}
+
+.porto-experiences-pictures-circle {
+  background-color: #fafafa;
+  border-radius: 50%;
+  padding: 4px;
+  height: 30px;
+  width: 30px;
+  padding: 12px;
+}
+
+.porto-experience-picture img {
+  height: 30px;
+}
+
+.porto-experiences-details-header {
+  color: #e37218;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.porto-experiences-details-place {
+  color: #fafafa;
+  font-size: 16px;
+}
+
+.porto-experiences-details-exp {
+  margin-top: 6px;
+  color: #fafafa;
+}
+
+ul {
+  margin-top: 6px;
+  list-style-position: inside;
+  text-indent: -20px; /* key property */
+  margin-left: 22px; /* key property */
+  padding-left: 0;
+  text-align: justify;
+}
+
+li {
+  margin: 8px 0px;
+  color: #fafafa;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.porto-skill {
+  margin-top: 40px;
+  background-color: #fafafa;
+  height: fit-content;
+  width: 100%;
+  border-radius: 20px;
+  padding-bottom: 8px;
+}
+
+.porto-skills-container {
+  /* margin-top: 20px; */
+  /* padding: 32px; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 60px;
+
+  width: 100%;
+  border-radius: 20px;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.porto-skill-progreess-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: #fafafa;
+  font-size: 18px;
+  text-align: center;
+  /* box-shadow: 10px 10px 10px gray; */
+}
+
+#porto-skill-progreess-bar-1 {
+  background: radial-gradient(closest-side, #1a1a1a 79%, transparent 80% 100%),
+    conic-gradient(#e37218 90%, var(--progress-bg) 0);
+}
+#porto-skill-progreess-bar-1::before {
+  content: "C++";
+}
+
+#porto-skill-progreess-bar-2 {
+  background: radial-gradient(closest-side, #1a1a1a 79%, transparent 80% 100%),
+    conic-gradient(#e37218 90%, var(--progress-bg) 0);
+}
+#porto-skill-progreess-bar-2::before {
+  content: "C";
+}
+
+#porto-skill-progreess-bar-3 {
+  background: radial-gradient(closest-side, #1a1a1a 79%, transparent 80% 100%),
+    conic-gradient(#e37218 80%, var(--progress-bg) 0);
+}
+#porto-skill-progreess-bar-3::before {
+  content: "Python";
+}
+
+#porto-skill-progreess-bar-4 {
+  background: radial-gradient(closest-side, #1a1a1a 79%, transparent 80% 100%),
+    conic-gradient(#e37218 90%, var(--progress-bg) 0);
+}
+#porto-skill-progreess-bar-4::before {
+  content: "Arduino";
+}
+
+#porto-skill-progreess-bar-5 {
+  background: radial-gradient(closest-side, #1a1a1a 79%, transparent 80% 100%),
+    conic-gradient(#e37218 80%, var(--progress-bg) 0);
+}
+#porto-skill-progreess-bar-5::before {
+  content: "STM32";
+}
+
+#porto-skill-progreess-bar-6 {
+  background: radial-gradient(closest-side, #1a1a1a 79%, transparent 80% 100%),
+    conic-gradient(#e37218 90%, var(--progress-bg) 0);
+}
+#porto-skill-progreess-bar-6::before {
+  content: "ESP32";
+}
+
+#porto-skill-progreess-bar-7 {
+  background: radial-gradient(closest-side, #1a1a1a 79%, transparent 80% 100%),
+    conic-gradient(#e37218 80%, var(--progress-bg) 0);
+}
+#porto-skill-progreess-bar-7::before {
+  content: "Raspberry Pi";
+}
+
+#porto-skill-progreess-bar-8 {
+  background: radial-gradient(closest-side, #1a1a1a 79%, transparent 80% 100%),
+    conic-gradient(#e37218 70%, var(--progress-bg) 0);
+}
+#porto-skill-progreess-bar-8::before {
+  content: "Javascript";
+}
